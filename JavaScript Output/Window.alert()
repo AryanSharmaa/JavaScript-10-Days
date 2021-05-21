@@ -1,0 +1,29 @@
+Window.alert() : Displays output in the form of an alert box.
+
+
+-------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Alert</h1>
+<p>Function</p>
+
+<script>
+window.alert(5 + 6);  OR   alert(5+6);
+</script>
+
+</body>
+</html>
+--------------------------------------------------------------
+It will display a pop up alert box on the display screen.
+______________________________________________________________
+
+
+
+
+*****************************************************************************************************************************************
+As shown in line 13, we can use either window.alert() or just alert() function.
+This is because window keyword is a global scoped object , that means all methods, variables by default belong to the window object.
+So, there is no need to write window.alert(), we can only use alert() which will perform the same.
+*****************************************************************************************************************************************
