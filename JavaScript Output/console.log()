@@ -1,0 +1,18 @@
+console.log() : Writes into the browser console.
+
+-----------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+console.log(15 + 11);
+</script>
+
+</body>
+</html>
+------------------------------------
+
+**************************************
+Mainly used for debugging purposes.
+**************************************
