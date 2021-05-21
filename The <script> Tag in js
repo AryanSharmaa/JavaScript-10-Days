@@ -1,0 +1,14 @@
+JavaScript code is inserted between opening and closing script tags in HTML.
+eg:-
+    <script>
+    alert("Hello World");  //pops out a warning on the screen
+    </script>
+    
+    The above example is of inline js.
+    
+    
+    External Js
+    We can use external js by creating a separate file with .js extension linking with the html file in the same directory.
+    ADVANTAGES
+    1. It separates the code of HTML and JavaScript.
+    2. It makes understanding easier.
