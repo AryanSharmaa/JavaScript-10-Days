@@ -1,0 +1,40 @@
+document.write() : Writes into the HTML Output.
+
+
+---------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Display Method</h1>
+<p>Document</p>
+
+<script>
+document.write(4 + 7);
+</script>
+
+</body>
+</html>
+---------------------------------------------------------
+
+
+
+Using document.write() after an HTML document is loaded, will delete all existing HTML:
+-----------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Display Method</h1>
+<p>Document</p>
+
+<button type="button" onclick="document.write(4 + 7)">Try it</button>
+
+</body>
+</html>
+-------------------------------------------------------------------------------------------------
+
+
+*******************************************
+It is mainly used for testing purposes.
+*******************************************
